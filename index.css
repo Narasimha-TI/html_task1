@@ -1,21 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+
 .anakonda {
     text-decoration: underline;
     font-size: 35px;
     color: #070101;
     font-family: sans-serif;
+    margin-left: 1cm;
+    margin-right: 15px;
 }
 .kingcobra{
     text-decoration: underline;
     font-size: 35px;
     font-family: sans-serif;
-    color: #0e0303;
+    color: #0e0303; 
+    margin-left: 1cm;
+    margin-right: 15px;
+
 }
 .Ratilsnake{
     text-decoration: underline;
     font-size: 35px;
     font-family: sans-serif;
     color: #0e0303;
+    margin-left: 1cm;
+    margin-right:15px;
 }
+
+.ssv{
+    text-decoration: underline;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #0e0303;
+    margin-left: 1cm;
+    margin-right:15px;
+}
+
+
 .im1{
     border-radius: 15px;
     margin-left: 30px;
@@ -28,3 +54,68 @@
     border-radius: 15px;
     margin-left: 30px;
 }
+.im4{
+
+ border-radius: 15px;
+   margin-left: 30px;}
+    
+
+.first{
+margin-left: 1cm;
+
+text-transform:capitalize; 
+font-size: 25px;
+font-family:sans-serif;
+justify-content: left;
+
+color: rgb(8, 8, 8);}
+
+.second{margin-left: 1cm;
+text-transform:capitalize; 
+font-size: 25px;
+font-family:sans-serif;
+justify-content: left;
+
+
+color: rgb(8, 8, 8);}
+
+.third{margin-left: 1cm;
+    text-transform:capitalize; 
+    font-size: 25px;
+    font-family:sans-serif;
+    justify-content: left;
+
+    color: rgb(8, 8, 8);}
+
+    .fourth{
+     margin-left: 1cm;
+    text-transform:capitalize; 
+    font-size: 25px;
+    justify-content:left;
+    justify-self:left;font-family:sans-serif;
+
+
+    color: rgb(8, 8, 8);
+    }
+
+    img{
+        margin: 25px;
+    
+    }
+    img:hover{
+        border:5px solid black;
+    }
+    body{
+        background-color: #af9c84;
+    }
+    @media only screen and(min-width:200px) and (max-width:900px) {
+        body {
+            background-size: cover;
+            width: 100%;
+            height: fit-content;
+        }
+        
+    }
+
+    
+    
